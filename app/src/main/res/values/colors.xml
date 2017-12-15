@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ecf0f1</color>
+    <color name="colorOffWhite">#bdc3c7</color>
+
+    <!--Tutorial-->
+    <color name="tutorialBackground">#34495e</color>
+
+    <!--HomeView-->
+    <color name="toolbar_color">#34495e</color>
+    <color name="i_knew">#16a085</color>
+    <color name="i_didnt">#e74c3c</color>
+</resources>

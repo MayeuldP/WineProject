@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbarcompat_mse="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_info"
+        android:orderInCategory="0"
+        actionbarcompat_mse:showAsAction="always"
+        android:title="One">
+    </item>
+    <item
+        android:id="@+id/action_user"
+        android:icon="@drawable/ic_user"
+        android:orderInCategory="1"
+        actionbarcompat_mse:showAsAction="always"
+        android:title="Two">
+    </item>
+    <item
+        android:id="@+id/action_one_duplicate"
+        android:icon="@drawable/wine"
+        android:orderInCategory="0"
+        actionbarcompat_mse:showAsAction="always"
+        android:title="One2">
+    </item>
+</menu>

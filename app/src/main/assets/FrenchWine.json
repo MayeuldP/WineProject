@@ -1,0 +1,25 @@
+{
+  "number": 5,
+  "cards": {
+    "1": {
+      "title": "Il y'a 17 régions viticoles",
+      "description": "Savez-vous qu'il y'avait 17 régions viticoles en France. L'Alsace, Armagnac & Cognac, Beaujolais & Lyonnais, Bordeaux, Bourgogne, Champagne, Corse, Jura, Languedoc, Lorraine, Poitou-Charentes, Provence, Roussillon, Savoie & Bugey, Sud-Ouest, Vallée de la Loire et Vallée du Rhône. Alors ? Le saviez-vous ?   "
+    },
+    "2": {
+      "title": "Saint-Emilion",
+      "description": "Cette prestigieuse appellation, mondialement réputée, est sans nul doute la plus connue. Cependant, elle regroupe quatre appellations (Saint-Emilion, Saint-Emilion grand cru, AOC Lussac Saint-Emilion et AOC Puisseguin Saint-Emilion) dont le prix n'est pourtant pas toujours aussi élevé qu'on pourrait le croire, 10 euros pouvant parfois suffire. 2009, 2006, 2005, 2003 et 2000 constituent les derniers millésimes à déguster. Par ailleurs, les meilleures bouteilles de Saint-Emilion grand cru peuvent se bonifier pendant plus de vingt ans. Alors ? Le saviez-vous ?   "
+    },
+    "3": {
+      "title": "Beaujolais nouveau",
+      "description": "Egalement connu pour le prix abordable de ses vins (moins de 5 euros), le Beaujolais nouveau est au cœur d'un événement médiatique qui se déroule tous les troisièmes jeudis de novembre bien que sa qualité soit dénoncée par ses nombreux détracteurs. Il s'agit là de vins rouges à boire jeunes ou au maximum dans les deux ans."
+    },
+    "4": {
+      "title": "Chablis",
+      "description": "Il s'agit sans doute de l'appellation la plus connue de la Bourgogne en matière de vins blancs. Elle en regroupe de nombreuses autres, qui occupent 4000 hectares de vignes : le Chablis, le Chablis Premier cru, le Petit Chablis ou encore le Chablis grand cru qui est connu pour promettre des vins de grande qualité sans le moindre défaut à partir de 20 euros.  Les autres Chablis constituent un parfait accompagnement pour les fromages de chèvre régionaux ou encore le poulet de Bresse."
+    },
+    "5": {
+      "title": "Côtes de Provence",
+      "description": "Très facile à connaître, cette appellation regroupe 20 000 hectares de vignes qui s'étendent des Bouches-du-Rhône jusqu'aux Alpes-Maritimes. Son vin rouge vaut autant le détour que le blanc qui se fait plus rare."
+    }
+  }
+}

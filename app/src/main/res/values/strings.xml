@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WineProject</string>
+
+    <!-- Tutorial Activity -->
+    <string name="tutorial_title">WineProject</string>
+    <string name="tutorial_description">WineProject est l\'application la plus simple pour découvrir le monde viticole. Avec nous, vous partez pour une aventure et l\'on vous promet, montre en main, que vous pourrez vous la jouer connaisseurs de vin en moins de 2 semaines.</string>
+    <string name ="tutorial_explanation">Découvrer les blocs d\'informations sur le vin, swiper à gauche ou à droite, et nous affinons, en fonction de votre niveau de connaissance, la précision des informations.</string>
+
+    <!-- Home Activity -->
+    <string name="i_knew_it">Je le savais</string>
+    <string name="i_didnt_knew_it">Je ne savais pas</string>
+
+    <!--CARD-->
+    <string name="card_title">Pas d\'autres informations pour le moment</string>
+    <string name="card_description">Mince, il semble que tu sois arriver a la fin des informations disponibles. Tu es donc un maître de l\'oenologie. Un petit verre ? Avec modération.</string>
+</resources>
