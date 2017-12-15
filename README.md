@@ -8,9 +8,9 @@ Ce projet est actuellement en développement, premier prototype accessible.
 WineProject (nom à changer) est une application destiné à toutes les personnes qui ont toujours révé de s'y connaitre un minimum en oenologie. Elle vous apporte les bases à connaîtres (cépages, grands noms, millésimes,...), pour que vous sachiez enfin de quoi vous parlez quand vous entammerais une discussion sur le vin avec des potes. 
 
 #Premier Screens : 
-
-![alt tuto](../master/screen/screen1.png)
-![alt cards](../master/screen/screen2.png)
+540 960
+![alt tuto](../master/screen/screen1.png =240x660)
+![alt cards](../master/screen/screen2.png =240x660)
 
 ### TODOLIST :
 
