@@ -9,8 +9,7 @@ WineProject (nom à changer) est une application destiné à toutes les personne
 
 #Premier Screens : 
 
-<img src="../master/screen/screen1.png" width="200px">
-<img src="../master/screen/screen2.png" width="200px">
+<img src="../master/screen/screen1.png" width="200px"> <img src="../master/screen/screen2.png" width="200px">
 
 ### TODOLIST :
 
