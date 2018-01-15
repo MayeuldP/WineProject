@@ -14,7 +14,22 @@
     <string name="i_knew_it">Je le savais</string>
     <string name="i_didnt_knew_it">Je ne savais pas</string>
 
+    <!-- Connexion Form -->
+    <string name="login_title_form">Connectez-vous</string>
+    <string name="mail">Mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="content">Afin de sauvegarder vos réponses et de vous proposez des questions les plus adaptés à votre niveau de connaissance, vous pouvez vous connectez.</string>
+    <string name="logged_title_form">Vous êtes connecté</string>
+    <string name="logged_content">vous êtes déjà connecté. Votre score de connaissance sur 5 est égal à [COMING SOON]</string>
+    <string name="got_account">Se connecter</string>
+
+
     <!--CARD-->
     <string name="card_title">Pas d\'autres informations pour le moment</string>
     <string name="card_description">Mince, il semble que tu sois arriver a la fin des informations disponibles. Tu es donc un maître de l\'oenologie. Un petit verre ? Avec modération.</string>
+
+    <!-- General String -->
+    <string name="validate">Valider</string>
+    <string name="cancel">Annuler</string>
+    <string name="logout">Se déconnecter</string>
 </resources>
