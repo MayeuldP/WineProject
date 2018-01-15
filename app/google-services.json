@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "431855905872",
+    "firebase_url": "https://tout-sur-le-vin.firebaseio.com",
+    "project_id": "tout-sur-le-vin",
+    "storage_bucket": "tout-sur-le-vin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431855905872:android:8192274d32df93b0",
+        "android_client_info": {
+          "package_name": "com.personal.mayeul.wineproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431855905872-57c9j38h2a3e4g25banc9kkb2epdojd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG47Z9_4_yX7sRDcJrfLfl7ZoidGtBSjc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
