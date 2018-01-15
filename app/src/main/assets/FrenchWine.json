@@ -1,25 +1,121 @@
 {
-  "number": 5,
+  "number": 29,
   "cards": {
     "1": {
       "title": "Il y'a 17 régions viticoles",
       "description": "Savez-vous qu'il y'avait 17 régions viticoles en France. L'Alsace, Armagnac & Cognac, Beaujolais & Lyonnais, Bordeaux, Bourgogne, Champagne, Corse, Jura, Languedoc, Lorraine, Poitou-Charentes, Provence, Roussillon, Savoie & Bugey, Sud-Ouest, Vallée de la Loire et Vallée du Rhône. Alors ? Le saviez-vous ?   "
     },
     "2": {
+      "title": "Alsace",
+      "description": "Le vignoble alsacien est un long ruban de 170 km de long, situé au pied du massif vosgien, qui s'étire de Marlenheim au nord à Thann au sud, complété par un îlot viticole à la limite de l'Allemagne, autour de Wissembourg et de Cleebourg. Les nombreuses sinuosités du relief et la variété des sols permettent à l'Alsace de proposer une vaste gamme de vins, secs et doux, tranquilles et effervescents."
+    },
+    "3": {
+      "title": "Armagnac & Cognac",
+      "description": "Le Cognac et l’Armagnac sont des eaux-de-vie traditionnelles, aux zones de production géographiquement différentes, qui se sont imposées au fil des siècles dans le paysage viticole français et mondial comme des références du savoir-faire à la française et de la finesse de ses productions."
+    },
+    "4": {
+      "title": "Beaujolais & Lyonnais",
+      "description": "Après la chute de l’Empire Romain et le passage des barbares, les moines des grandes abbayes de la région Beaujolais reprirent la viticulture. Les sols graniteux composant cette région étaient alors décrits comme permettant seulement la culture de la vigne."
+    },
+    "5": {
+      "title": "Bordeaux",
+      "description": "La région bordelaise se situe en façade Atlantique sur la rive gauche et droite de la Gironde. Avec ses 119 000 ha et ses 60 appellations, la région bordelaise représente le plus vaste vignoble d’AOC français."
+    },
+    "6": {
+      "title": "Bourgogne",
+      "description": "La Bourgogne viticole est située au centre-est de la France, et s’étend d’Auxerre à Mâcon. Avec ses 27 200 hectares de production, le vignoble bourguignon représente 3% du vignoble français d’AOC. La Bourgogne est Divisée en 5 sous-régions"
+    },
+    "7": {
+      "title": "Champagne",
+      "description": "Le Champagne est un vin effervescent qui porte le nom de son appellation. C’est la seule région à ne revendiquer qu’une appellation principale.                                                                            Le vignoble champenois couvre 33 000 hectares partagé dans les départements de la Marne, de l’Aube et de l’Aisne. Trois cépages majeurs sont à la base de l’élaboration des champagnes : pinot noir, pinot meunier (pour les cépages rouges) et chardonnay (comme cépage blanc)."
+    },
+    "8": {
+      "title": "Corse",
+      "description": "Si la vigne est présente (à l’état sauvage) et appréciée depuis plusieurs millénaires, la viticulture en Corse se précise surtout à partir du travail effectué par les Grecs six siècles avant JC. Elle fut perpétuée par les Romains, et se développa par la suite de façon spectaculaire. Aujourd'hui le vignoble, formé d'une chaîne de montagnes où se mêlent climat méditerranéen, montagnard et marin, s'étend tout autour du littoral de l’île, sur près de 7 000 ha qui produisent plus de 117 000 hectolitres par an de vins classés en AOC."
+    },
+    "9": {
+      "title": "Jura",
+      "description": "Le vignoble du Jura (qu’on appelle aussi Revermont ou Bon-Pays) s’étend sur seulement 1 950 hectares, intégralement dans le département du Jura. Assez méconnue, et ne produisant que 86 300 hectolitres de vin par an en moyenne, c’est pourtant une très ancienne région viticole déjà mentionnée dans les écrits de Pline le Jeune au Ier siècle avant J.-C."
+    },
+    "10": {
+      "title": "Languedoc",
+      "description": "Le vignoble du Languedoc-Roussillon s’étend sur 4 départements : l’Aude, le Gard, l’Hérault et les Pyrénées-Orientales, sur une surface de 42 800 hectares et pour une production de plus d’1 800 000 hectolitres par an. Les premiers à implanter des vignes dans la région furent les Grecs au Vème siècle avant JC."
+    },
+    "11": {
+      "title": "Lorraine",
+      "description": "Le vignoble présent en Lorraine ne représente plus que 115 hectares pour toute la région, le long de la Moselle principalement autour de Metz et de Toul. La production d’environ 7 500 hectolitres par an est issue de 2 terroirs anciens, seuls survivants de la grande vague de destruction des vignes qu’a subie la Lorraine en raison du phylloxéra : les appellations Moselle et Côtes-de-Toul."
+    },
+    "12": {
+      "title": "Poitou-Charentes",
+      "description": "La région Poitou-Charentes couvre une zone délimitée à l’ouest par les côtes charentaises de l’Atlantique, au nord et au sud par 2 régions viticoles de prestiges que sont respectivement la Vallée de la Loire et l’Aquitaine. Or un grand nombre des vignobles limitrophes sont rattachés aujourd’hui à ces régions du point de vue des appellations, comme les vins d’Anjou au nord-ouest, de Saumur au nord ou de Touraine au nord-est."
+    },
+    "13": {
+      "title": "Provence",
+      "description": "Très facile à connaître, cette appellation regroupe 20 000 hectares de vignes qui s'étendent des Bouches-du-Rhône jusqu'aux Alpes-Maritimes. Son vin rouge vaut autant le détour que le blanc qui se fait plus rare."
+    },
+    "14": {
+      "title": "Rousillon",
+      "description": "Le vignoble du Roussillon est situé dans le département des Pyrénées Orientales. Il s’étend sur 20 600 hectares et produit environ 621 000 hectolitres par an. Il borde la mer Méditerranée jusqu’à la frontière espagnole. Entre mer et montagne, le Roussillon offre à la vigne un environnement de sécheresse, de chaleur et de terroirs exceptionnels."
+    },
+    "15": {
+      "title": "Savoie & Bugey",
+      "description": "Du lac Léman au sud de Chambéry, le vignoble savoyard occupe les premières pentes alpines, entre 300 et 600 m. Entre lacs, alpages, chalets et vergers, les vignes forment une mosaïque complexe de microclimats et de terroirs aux caractères montagnards plus ou moins accentués, où s'épanouissent une multitude de cépages, majoritairement blancs. "
+    },
+    "16": {
+      "title": "Sud-Ouest",
+      "description": "Du Pays basque à l’Aveyron, des Pyrénées au sud jusqu’au Massif Central au nord, la région viticole du Sud-ouest s’étend sur près de 500 km et 12 départements. La culture de la vigne existe dans cette région depuis des siècles, implantée par les gaulois bien avant l’arrivée des romains. Le savoir-faire se développe par la suite sous l’impulsion des monastères et des abbayes, sur la route qui mène à Saint Jacques de Compostelle."
+    },
+    "17": {
+      "title": "Vallée de la Loire",
+      "description": "Déjà présent dans la Vallée de Loire à l’époque gallo-romaine, le vin représente un véritable modèle historique et culturel favorisé ensuite par l’impulsion des grandes abbayes au Ve siècle. Il est partie intégrante de la culture du « bien vivre » qui s’est développée dans la région."
+    },
+    "18": {
+      "title": "Vallée du Rhône",
+      "description": "Présent dans la région dès l’Antiquité, le vignoble de la Vallée du Rhône connaît une impulsion commerciale au premier siècle avec les Romains, qui développèrent la culture de la vigne. « Vins des Papes » dès le XIVème siècle, les vins des Côtes-du-Rhône (ancien nom de la région viticole) acquièrent ainsi leur renommée internationale."
+    },
+    "19":{
+      "title": "Le vin, protecteur de l'organisme",
+      "description":"Sachez que le vin possède des vertus à condition d’en faire une consommation modérée. La grande concentration de polyphénols antioxydants semble en effet pouvoir ralentir le vieillissement de l’organisme et augmenter le bon cholestérol, celui qui permet de nettoyer les artères : plusieurs études affirment donc que deux ou trois verres de vin par jour participent à la protection de l’organisme contre les maladies coronaires et cardiovasculaires."
+    },
+    "20":{
+      "title": "L'origine de la couleur du vin",
+      "description":"Contrairement à ce que l’on pourrait penser instinctivement, cela ne s’explique pas par la couleur du cépage (la variété de raisin). En effet, que les raisins soient blancs ou rouges, leur jus reste blanc. Les différences de coloration du vin s’expliquent en réalité principalement par la macération des peaux de raisins dans le jus en fermentation."
+    },
+    "21":{
+      "title": "Le vin est majoritairement composé d'eau",
+      "description":"Il est principalement composé d’eau, à environ 85%, et d’alcool (principalement de l’éthanol, mais aussi du glycérol, du sorbitol, du butylène glycol et du méthanol), environ entre 12 et 16%. Le reste correspond au sucre, acides, et d'autres substances minérales."
+    },
+    "22":{
+      "title": "Gardez la bouteille couché !",
+      "description":"Lorsqu’on commence à acquérir des bouteilles que l’on ne consomme pas immédiatement, se pose la question de leur conservation. Les principaux paramètres à prendre en compte sont la température (idéalement entre 12 et 13°C), l’hygrométrie (70-75% d’humidité), l’obscurité et l’absence de vibrations. Et les bouteilles doivent absolument être conservées couchées pour garder le bouchon humide (et l’empêcher ainsi de se dessécher et de perdre en hermétisme, voire de tomber dans la bouteille)."
+    },
+    "23":{
+      "title": "Les différences de prix",
+      "description":"D'ou vient les différences de prix entre les bouteilles de vins ? Là encore, la question n’est vraiment pas simple … On peut tenter d’y apporter des pistes de réponse avec principalement quatre éléments qui influencent la quantité produite : les rendements, le terroir, le travail du vigneron et la qualité du millésime."
+    },
+    "24":{
+      "title": "Analysez un vin, compliqué ?",
+      "description":"Les différents arômes à analyser lors d'une dégustation. On commence avec les arômes primaires, qui proviennent du cépage et des terroirs se sont essentiellement les arômes du premier nez simple à reconnaître ce sont les notes florales, fruitées et minérales. Vient ensuite les arômes secondaires. Eux sont issus des différents procédés de vinifications, ce sont des notes épicées, boisées, lactées. Enfin, les arômes tertiaires sont eux dû aux vieillissements du vin, voyez-le comme la phase d’affinage des arômes, ce sont des arômes très compliqués à décrire mais pas pour autant difficile à trouver. Les notes de café, cuir, pierre à fusil, tabac… En sont les plus représentatives."
+    },
+    "25":{
+      "title":"Non, le rosé n'est pas un mélange de rouge et de blanc !",
+      "description":"Le rosé n’est jamais un mélange de vin. Ce n’est pas un sous-produit. Au contraire, il demande une matière première de grande qualité, qui favorise sa fraîcheur et la pureté de ses arômes. La vendange doit être mûre à point, riche en pigments colorants et dans un parfait état sanitaire."
+    },
+    "26": {
       "title": "Saint-Emilion",
       "description": "Cette prestigieuse appellation, mondialement réputée, est sans nul doute la plus connue. Cependant, elle regroupe quatre appellations (Saint-Emilion, Saint-Emilion grand cru, AOC Lussac Saint-Emilion et AOC Puisseguin Saint-Emilion) dont le prix n'est pourtant pas toujours aussi élevé qu'on pourrait le croire, 10 euros pouvant parfois suffire. 2009, 2006, 2005, 2003 et 2000 constituent les derniers millésimes à déguster. Par ailleurs, les meilleures bouteilles de Saint-Emilion grand cru peuvent se bonifier pendant plus de vingt ans. Alors ? Le saviez-vous ?   "
     },
-    "3": {
+    "27": {
       "title": "Beaujolais nouveau",
       "description": "Egalement connu pour le prix abordable de ses vins (moins de 5 euros), le Beaujolais nouveau est au cœur d'un événement médiatique qui se déroule tous les troisièmes jeudis de novembre bien que sa qualité soit dénoncée par ses nombreux détracteurs. Il s'agit là de vins rouges à boire jeunes ou au maximum dans les deux ans."
     },
-    "4": {
+    "28": {
       "title": "Chablis",
       "description": "Il s'agit sans doute de l'appellation la plus connue de la Bourgogne en matière de vins blancs. Elle en regroupe de nombreuses autres, qui occupent 4000 hectares de vignes : le Chablis, le Chablis Premier cru, le Petit Chablis ou encore le Chablis grand cru qui est connu pour promettre des vins de grande qualité sans le moindre défaut à partir de 20 euros.  Les autres Chablis constituent un parfait accompagnement pour les fromages de chèvre régionaux ou encore le poulet de Bresse."
     },
-    "5": {
-      "title": "Côtes de Provence",
-      "description": "Très facile à connaître, cette appellation regroupe 20 000 hectares de vignes qui s'étendent des Bouches-du-Rhône jusqu'aux Alpes-Maritimes. Son vin rouge vaut autant le détour que le blanc qui se fait plus rare."
+    "29": {
+      "title": "Vous êtes arrivé à la fin",
+      "description": "Pas d'autres cartes diponibles. Cependant, de nouvelles arrivent très vite, so stay tuned."
     }
   }
 }

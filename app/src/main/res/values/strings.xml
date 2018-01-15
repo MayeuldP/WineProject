@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">WineProject</string>
 
+    <!-- Toolbar Activity-->
+    <string name="title_info_toolbar">Informations</string>
+    <string name="text_info_toolbar">Cette application est en cours de développement. Merci pour votre indulgence.</string>
+
     <!-- Tutorial Activity -->
-    <string name="tutorial_title">WineProject</string>
+    <string name="tutorial_title">Tout savoir sur le vin</string>
     <string name="tutorial_description">WineProject est l\'application la plus simple pour découvrir le monde viticole. Avec nous, vous partez pour une aventure et l\'on vous promet, montre en main, que vous pourrez vous la jouer connaisseurs de vin en moins de 2 semaines.</string>
     <string name ="tutorial_explanation">Découvrer les blocs d\'informations sur le vin, swiper à gauche ou à droite, et nous affinons, en fonction de votre niveau de connaissance, la précision des informations.</string>
 
