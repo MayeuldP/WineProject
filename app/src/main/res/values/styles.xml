@@ -5,9 +5,14 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorBackground</item>
         <item name="colorPrimaryDark">@color/toolbar_color</item>
-        <item name="colorAccent">@color/colorBackground</item>
+        <item name="colorAccent">@color/toolbar_color</item>
         <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
         <item name="actionMenuTextAppearance">@style/MyMenuTextAppearance</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:shadowColor">@color/toolbar_color</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1.5</item>
     </style>
 
     <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">

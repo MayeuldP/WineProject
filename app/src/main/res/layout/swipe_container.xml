@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daprlabs.cardstack.SwipeFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipedeck="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_wine"
+    android:scaleType="fitXY"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_frame"
+        android:orientation="vertical">
+
+         <include layout="@layout/swipe_deck" />
+
+    </LinearLayout>
+</com.daprlabs.cardstack.SwipeFrameLayout>

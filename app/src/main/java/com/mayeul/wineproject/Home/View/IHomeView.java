@@ -1,4 +1,4 @@
-package com.personal.mayeul.wineproject.Home.View;
+package com.mayeul.wineproject.Home.View;
 
 import com.personal.mayeul.wineproject.Home.HomeView;
 
@@ -7,9 +7,7 @@ import com.personal.mayeul.wineproject.Home.HomeView;
  */
 
 public interface IHomeView {
-    void display_form_connexion();
     String loadJSONFromAsset();
-    void display_info_dialog();
     void display_snackbar(String text);
     HomeView get_info_class();
 }

@@ -1,25 +1,29 @@
-package com.personal.mayeul.wineproject;
+package com.mayeul.wineproject;
 
 import android.content.Intent;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.WindowManager;
 
-import com.personal.mayeul.wineproject.Home.HomeView;
 import com.example.mayeul.wineproject.R;
 import com.github.paolorotolo.appintro.AppIntro;
 import com.github.paolorotolo.appintro.AppIntroFragment;
 
-public class MainActivity extends  AppIntro {
+public class IntroTuto extends  AppIntro {
 
     private String description = "";
+    private FragmentManager fm = getSupportFragmentManager();
+    private FragmentTransaction ft;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        ft = getSupportFragmentManager().beginTransaction();
 
         //setContentView(R.layout.activity_main);
         description = getResources().getString(R.string.tutorial_description);
@@ -31,7 +35,7 @@ public class MainActivity extends  AppIntro {
     @Override
     public void onSkipPressed(Fragment currentFragment) {
         super.onSkipPressed(currentFragment);
-        Intent intent = new Intent(this, HomeView.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         // Do something when users tap on Skip button.
     }
@@ -40,7 +44,7 @@ public class MainActivity extends  AppIntro {
     public void onDonePressed(Fragment currentFragment) {
         super.onDonePressed(currentFragment);
         // Do something when users tap on Done button.
-        Intent intent = new Intent(this, HomeView.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 

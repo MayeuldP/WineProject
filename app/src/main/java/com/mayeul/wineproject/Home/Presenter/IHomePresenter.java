@@ -1,4 +1,4 @@
-package com.personal.mayeul.wineproject.Home.Presenter;
+package com.mayeul.wineproject.Home.Presenter;
 
 /**
  * Created by MAYEUL on 15/01/2018.

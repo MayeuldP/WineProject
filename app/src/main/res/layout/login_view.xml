@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_wine">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/content"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        android:shadowColor="@color/toolbar_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:theme="@style/AppTheme">
+        <EditText
+            android:id="@+id/mail"
+            android:inputType="textEmailAddress"
+            android:hint="@string/mail"
+            android:textColor="#fff"
+            android:shadowColor="@color/toolbar_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:theme="@style/AppTheme">
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:textColor="#fff"
+            android:shadowColor="@color/toolbar_color"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:id="@+id/register"
+            android:text="@string/new_account"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/existing_account"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        android:shadowColor="@color/toolbar_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:paddingTop="40dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/loggin"
+            android:background="@drawable/rounded_button"
+            android:text="@string/got_account"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

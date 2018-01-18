@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WineProject</string>
+    <string name="app_name">Tout sur le Vin</string>
 
     <!-- Toolbar Activity-->
     <string name="title_info_toolbar">Informations</string>
@@ -7,7 +7,7 @@
 
     <!-- Tutorial Activity -->
     <string name="tutorial_title">Tout savoir sur le vin</string>
-    <string name="tutorial_description">WineProject est l\'application la plus simple pour découvrir le monde viticole. Avec nous, vous partez pour une aventure et l\'on vous promet, montre en main, que vous pourrez vous la jouer connaisseurs de vin en moins de 2 semaines.</string>
+    <string name="tutorial_description">Tout sur le Vin est l\'application la plus simple pour découvrir le monde viticole. Avec nous, vous partez pour une aventure et l\'on vous promet, montre en main, que vous pourrez vous la jouer connaisseurs de vin en moins de 2 semaines.</string>
     <string name ="tutorial_explanation">Découvrer les blocs d\'informations sur le vin, swiper à gauche ou à droite, et nous affinons, en fonction de votre niveau de connaissance, la précision des informations.</string>
 
     <!-- Home Activity -->
@@ -16,13 +16,20 @@
 
     <!-- Connexion Form -->
     <string name="login_title_form">Connectez-vous</string>
+    <string name="new_account">S\'inscrire</string>
     <string name="mail">Mail</string>
     <string name="password">Mot de passe</string>
-    <string name="content">Afin de sauvegarder vos réponses et de vous proposez des questions les plus adaptés à votre niveau de connaissance, vous pouvez vous connectez.</string>
+    <string name="content">Afin de sauvegarder vos réponses et de vous proposez les questions les plus adaptés à votre niveau de connaissance, vous pouvez vous connectez.</string>
     <string name="logged_title_form">Vous êtes connecté</string>
     <string name="logged_content">vous êtes déjà connecté. Votre score de connaissance sur 5 est égal à [COMING SOON]</string>
+    <string name="existing_account">Vous avez déjà un compte ? Alors connectez vous afin de récuperer vos données :</string>
     <string name="got_account">Se connecter</string>
 
+    <!-- Info User View-->
+    <string name="info_user_text">Bonjour, très heureux de vous retrouvez sur notre application. Vous trouverez ci-dessous toutes les informations concernant votre profil.</string>
+    <string name="info_user_mark">Vous disposez actuellement d\'un niveau de connaissance égal à </string>
+    <string name="info_user_who_you_are">a definir</string>
+    <string name="info_user_disconnect">Se déconnecter</string>
 
     <!--CARD-->
     <string name="card_title">Pas d\'autres informations pour le moment</string>
@@ -32,4 +39,5 @@
     <string name="validate">Valider</string>
     <string name="cancel">Annuler</string>
     <string name="logout">Se déconnecter</string>
+    <string name="error_info">Veuillez vérifier vos informations de connexion</string>
 </resources>

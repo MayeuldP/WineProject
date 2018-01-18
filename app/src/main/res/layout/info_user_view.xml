@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_wine">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/info_user_text"
+        android:textColor="#fff"
+        android:shadowColor="@color/toolbar_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/user_mark"
+        android:text="@string/info_user_mark"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        android:shadowColor="@color/toolbar_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:paddingTop="@dimen/betwenn_two_text"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/info_user_who_you_are"
+        android:id="@+id/user_profile"
+        android:paddingBottom="15dp"
+        android:textColor="#fff"
+        android:shadowColor="@color/toolbar_color"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1.5"
+        android:paddingTop="@dimen/betwenn_two_text"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:id="@+id/loggout"
+            android:text="@string/info_user_disconnect"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

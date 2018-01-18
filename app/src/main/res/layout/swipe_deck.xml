@@ -8,34 +8,6 @@
     android:scaleType="fitXY"
     android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:minHeight="?attr/actionBarSize"
-            android:background="@color/toolbar_color"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/toolbar_info"
-                android:layout_gravity="left"
-                android:layout_marginStart="24dp"
-                android:src="@drawable/ic_info"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:padding="5dp"
-                android:src="@drawable/wine"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/toolbar_login"
-                android:layout_gravity="right"
-                android:layout_marginEnd="24dp"
-                android:src="@drawable/ic_user"/>
-        </android.support.v7.widget.Toolbar>
-
         <com.daprlabs.cardstack.SwipeDeck
             android:id="@+id/swipe_deck"
             android:layout_width="match_parent"
