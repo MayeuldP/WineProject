@@ -3,7 +3,6 @@ package com.mayeul.wineproject.InfoUser.Model;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.mayeul.wineproject.InfoUser.Presenter.IInfoUserPresenter;
-import com.personal.mayeul.wineproject.InfoUser.Presenter.IInfoUserPresenter;
 
 /**
  * Created by MAYEUL on 18/01/2018.

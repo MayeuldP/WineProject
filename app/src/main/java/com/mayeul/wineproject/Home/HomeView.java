@@ -18,8 +18,8 @@ import com.daprlabs.cardstack.SwipeDeck;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.mayeul.wineproject.Home.Presenter.HomePresenter;
-import com.mayeul.wineproject.Home.View.IHomeView;
 import com.mayeul.wineproject.Home.Presenter.IHomePresenter;
+import com.mayeul.wineproject.Home.View.IHomeView;
 import com.mayeul.wineproject.Home.View.CardView;
 import com.mayeul.wineproject.R;
 

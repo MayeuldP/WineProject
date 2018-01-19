@@ -1,8 +1,8 @@
 package com.mayeul.wineproject.InfoUser.Presenter;
 
-import com.personal.mayeul.wineproject.InfoUser.IInfoUserView;
-import com.personal.mayeul.wineproject.InfoUser.Model.IInfoUserModel;
-import com.personal.mayeul.wineproject.InfoUser.Model.InfoUserModel;
+import com.mayeul.wineproject.InfoUser.IInfoUserView;
+import com.mayeul.wineproject.InfoUser.Model.IInfoUserModel;
+import com.mayeul.wineproject.InfoUser.Model.InfoUserModel;
 
 /**
  * Created by MAYEUL on 18/01/2018.

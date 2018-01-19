@@ -1,6 +1,6 @@
 package com.mayeul.wineproject.Home.View;
 
-import com.personal.mayeul.wineproject.Home.HomeView;
+import com.mayeul.wineproject.Home.HomeView;
 
 /**
  * Created by MAYEUL on 15/01/2018.

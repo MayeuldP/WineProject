@@ -9,9 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.mayeul.wineproject.R;
 import com.mayeul.wineproject.Login.Presenter.ILoginPresenter;
 import com.mayeul.wineproject.Login.Presenter.LoginPresenter;
+import com.mayeul.wineproject.R;
 
 /**
  * Created by MAYEUL on 15/01/2018.

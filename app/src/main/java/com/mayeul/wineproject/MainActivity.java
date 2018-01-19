@@ -11,13 +11,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.mayeul.wineproject.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.mayeul.wineproject.Home.HomeView;
-import com.personal.mayeul.wineproject.Home.HomeView;
-import com.personal.mayeul.wineproject.InfoUser.InfoUserView;
-import com.personal.mayeul.wineproject.Login.LoginView;
+import com.mayeul.wineproject.InfoUser.InfoUserView;
+import com.mayeul.wineproject.Login.LoginView;
+import com.mayeul.wineproject.R;
 
 /**
  * Created by MAYEUL on 18/01/2018.

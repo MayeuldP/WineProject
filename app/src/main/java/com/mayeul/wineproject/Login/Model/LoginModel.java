@@ -10,11 +10,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.personal.mayeul.wineproject.Home.HomeView;
-import com.personal.mayeul.wineproject.InfoUser.InfoUserView;
-import com.personal.mayeul.wineproject.Login.LoginView;
-import com.personal.mayeul.wineproject.Login.Presenter.ILoginPresenter;
-import com.personal.mayeul.wineproject.MainActivity;
+import com.mayeul.wineproject.Login.Presenter.ILoginPresenter;
 
 /**
  * Created by MAYEUL on 15/01/2018.

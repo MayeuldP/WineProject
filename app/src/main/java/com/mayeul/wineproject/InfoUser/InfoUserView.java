@@ -8,11 +8,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.mayeul.wineproject.R;
 import com.mayeul.wineproject.InfoUser.Presenter.IInfoUserPresenter;
 import com.mayeul.wineproject.InfoUser.Presenter.InfoUserPresenter;
-import com.personal.mayeul.wineproject.InfoUser.Presenter.IInfoUserPresenter;
-import com.personal.mayeul.wineproject.InfoUser.Presenter.InfoUserPresenter;
+import com.mayeul.wineproject.R;
 
 /**
  * Created by MAYEUL on 18/01/2018.

@@ -8,9 +8,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.WindowManager;
 
-import com.example.mayeul.wineproject.R;
 import com.github.paolorotolo.appintro.AppIntro;
 import com.github.paolorotolo.appintro.AppIntroFragment;
+import com.mayeul.wineproject.R;
 
 public class IntroTuto extends  AppIntro {
 

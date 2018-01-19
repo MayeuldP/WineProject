@@ -3,7 +3,7 @@ package com.mayeul.wineproject.Home.Presenter;
 import android.content.Context;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.personal.mayeul.wineproject.Home.View.IHomeView;
+import com.mayeul.wineproject.Home.View.IHomeView;
 
 /**
  * Created by MAYEUL on 15/01/2018.

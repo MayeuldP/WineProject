@@ -3,10 +3,8 @@ package com.mayeul.wineproject.Login.Presenter;
 import android.content.Context;
 
 import com.mayeul.wineproject.Login.ILoginView;
-import com.personal.mayeul.wineproject.Login.ILoginView;
-import com.personal.mayeul.wineproject.Login.LoginView;
-import com.personal.mayeul.wineproject.Login.Model.ILoginModel;
-import com.personal.mayeul.wineproject.Login.Model.LoginModel;
+import com.mayeul.wineproject.Login.Model.ILoginModel;
+import com.mayeul.wineproject.Login.Model.LoginModel;
 
 /**
  * Created by MAYEUL on 15/01/2018.
