@@ -1,7 +1,9 @@
-ATTENTION :
+:exclamation: ATTENTION ::exclamation:
 ```
 Ce projet est actuellement en développement, premier prototype accessible.
 ```
+### <br> :raised_hands: L'application est disponible [`ICI`](https://play.google.com/store/apps/details?id=com.mayeul.wineproject&hl=fr)  sur le play store :raised_hands:
+</br>
 
 # Concept de l'application : 
 
@@ -10,12 +12,17 @@ WineProject (nom à changer) est une application destiné à toutes les personne
 ### Actuellement en cours
 - [X] Inscription avec gestion FirebaseAuth
 - [X] Deconnexion 
-- [ ] Connexion
+- [X] Connexion
 - [ ] Delete compte
+
+### A venir dans la prochaine mise à jour 
+- [ ] Revoir la gestion des cartes avec une librairie mieux optimisé
+- [ ] Ajouter informations complémentaires dans la partie profil
+- [ ] Ajout de nouvelles cartes
 
 # Premier Screens : 
 
-<img src="../master/screen/screen1.png" width="200px"> <img src="../master/screen/screen2.png" width="200px">
+<img src="../master/screen/screen1.png" width="200px"> <img src="../master/screen/screen2.png" width="200px"> <img src="../master/screen/screen3.png" width="200px">
 
 ### TODOLIST :
 
