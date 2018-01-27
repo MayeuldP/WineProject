@@ -13,6 +13,7 @@ WineProject (nom à changer) est une application destiné à toutes les personne
 - [X] Inscription avec gestion FirebaseAuth
 - [X] Deconnexion 
 - [X] Connexion
+- [X] Integration de premières statistiques basé sur le nombre de questions connus/pas connus. Grosse gestion d'erreur à faire encore.
 - [ ] Delete compte
 
 ### A venir dans la prochaine mise à jour 
@@ -22,7 +23,7 @@ WineProject (nom à changer) est une application destiné à toutes les personne
 
 # Premier Screens : 
 
-<img src="../master/screen/screen1.png" width="200px"> <img src="../master/screen/screen2.png" width="200px"> <img src="../master/screen/screen3.png" width="200px">
+<img src="../master/screen/screen1.png" width="200px"> <img src="../master/screen/screen2.png" width="200px"> <img src="../master/screen/screen3.png" width="200px"> <img src="../master/screen/screen4.png" width="200px">
 
 ### TODOLIST :
 
