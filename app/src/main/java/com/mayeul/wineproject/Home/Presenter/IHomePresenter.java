@@ -5,5 +5,5 @@ package com.mayeul.wineproject.Home.Presenter;
  */
 
 public interface IHomePresenter {
-    void ask_for_connexion(String email, String password);
+    void ask_saveOnDatabase(boolean value);
 }

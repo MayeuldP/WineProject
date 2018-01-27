@@ -117,9 +117,11 @@ public class HomeView extends Fragment  implements View.OnClickListener, IHomeVi
         {
             case R.id.i_didnt_knew:
                 cardStack.swipeTopCardLeft(700);
+                HomePresenter.ask_saveOnDatabase(false);
                 break;
             case R.id.i_knew:
                 cardStack.swipeTopCardRight(700);
+                HomePresenter.ask_saveOnDatabase(true);
                 break;
         }
     }

@@ -3,6 +3,7 @@ package com.mayeul.wineproject.Home.Presenter;
 import android.content.Context;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.mayeul.wineproject.Home.Model.HomeModel;
 import com.mayeul.wineproject.Home.View.IHomeView;
 
 /**
@@ -12,15 +13,17 @@ import com.mayeul.wineproject.Home.View.IHomeView;
 public class HomePresenter implements IHomePresenter {
     private Context context;
     private IHomeView iHomeView;
-    private FirebaseAuth mAuth;
+    private HomeModel homeModel;
 
     public HomePresenter(Context context, IHomeView iHomeView)
     {
         this.context = context;
         this.iHomeView = iHomeView;
+        homeModel = new HomeModel(this);
     }
 
     @Override
-    public void ask_for_connexion(String email, String password) {
+    public void ask_saveOnDatabase(boolean value) {
+        homeModel.requestSaveOnDatabase(value);
     }
 }
